@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;400;500;600;700;800&family=Ubuntu:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <!---NavBar Section-->
+        <nav>
+            <div class="container">
+                <a href="#"><h3>Portfolio</h3></a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contacts">Let's Talk</a></li>
+                </ul>
+                <button id="menu-btn"><span class="material-icons-sharp">menu</span></button>
+                <button id="close-btn"><span class="material-icons-sharp">close</span></button>
+            </div>
+        </nav>
+        <!---NavBar End-->
+        <!---landing Section start-->
+        <section class="landing">
+            <div class="container">
+                 <div class="socials">
+                     <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                     <a href="https://dribbble.com" target="_blank"><i class="uil uil-dribbble"></i></a>
+                     <a href="https://github.com" target="_blank"><i class="uil uil-github"></i></a>
+                 </div>
+                 <div class="info">
+                     <h1>UI/UX Design & Fullstack Web Developer </h1>
+                        <h3>hi, I'm Aicha Akrout :)</h3>
+                        <p>PhD student in my second year of
+                            Information and Communication Sciences
+                            and Technology. I want to improve my
+                            professional skills and experience within a
+                            company who offers perspective and
+                            excellence in quality, as well as an
+                            environment of confidence and
+                            teamwork.</p>
+                            <a href="#Contacts" class="btn btn-primary"> Let's Talk</a>
+                 </div>
+                 <div class="profile-area">
+                     <div class="outer-circle">
+                        <span class="material-icons-sharp">design_services</span>
+                        <span class="material-icons-sharp">dns</span>
+                        <span class="material-icons-sharp">code</span>
+                        <span class="material-icons-sharp">integration_instructions</span>
+                     </div>
+                     <div class="inner-circle">
+                         <img src="./photos/akrout.png">
+                     </div>
+                 </div>
+            </div>
+        </section>
+        <!---landing Section End-->
+        <section class="about" id="about">
+            <h1>About</h1>
+            <div class="contnainer">
+                <div class="image">
+                    <img src="./photos/akrout.png">
+                </div>
+                <div class="info">
+                    <p>SALES MANAGER
+                        GSM Mobile Phonel Gabes
+                        • Managing employees, including sales team members
+                        • Researching ways to penetrate new markets
+                        • Training new employees to use company software and successful sales
+                        techniques
+                        • Resolving disputes between employees</p>
+                            <div class="read-more-content">
+                                <p>OOREDOO CALL CENTER MANAGER
+                                    GSM Kehlaoui l Gabes
+                                    • Develop and set objectives for day-to-day operations in a call center
+                                    • Interview and hire potential call center agents
+                                    • Offer solutions for improvement
+                                    • Assist call center agents in their daily tasks and in de-escalating challenging
+                                    cases</p>
+                                </p>
+                            </div>
+                            <a class="read-more">Show more</a>
+                            <a href="./photos/CV-Aicha-AKROUT.pdf" Download class="btn btn-primary"><i class="uil uil-import"></i>Download</a>
+                </div>
+            </div>
+        </section>
+        <!---End of about-->
+        <section class="skills" id="skills">
+            <h1>Skills</h1>
+            <div class="container">
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-icons-sharp">design_services</span>
+                            <h4>UI/UX Design</h4>
+                        </div>
+                            <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <h5>Figma</h5>
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                    <h5>92%</h5>
+                            </div>
+                        </div>
+                            <!---End of item-->
+                            <div class="item">
+                                <h5>Adobe XD</h5>
+                                <div class="progress-area">
+                                    <div class="progress-bar">
+                                        <div class="progress"></div>
+                                    </div>
+                                        <h5>88%</h5>
+                                </div>
+                            </div>
+                                <!---End of item-->
+                                <div class="item">
+                                    <h5>Adobe After Effect</h5>
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                            <h5>75%</h5>
+                                    </div>
+                                </div>
+                                    <!---End of item-->
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-icons-sharp">code</span>
+                            <h4>Frontend Development</h4>
+                        </div>
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                <div class="items">
+                    <div class="item">
+                        <h5>JavaScript</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                                <h5>88%</h5>
+                        </div>
+                    </div>
+                        <!---End of item-->
+                        <div class="item">
+                            <h5>React</h5>
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                    <h5>75%</h5>
+                            </div>
+                        </div>
+                            <!---End of item-->
+                            <div class="item">
+                                <h5>CSS</h5>
+                                <div class="progress-area">
+                                    <div class="progress-bar">
+                                        <div class="progress"></div>
+                                    </div>
+                                        <h5>60%</h5>
+                                </div>
+                            </div>
+                                <!---End of item-->
+                                <div class="item">
+                                    <h5>Html</h5>
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                            <h5>98%</h5>
+                                    </div>
+                                </div>
+                                    <!---End of item-->
+                </div>
+            </div>
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-icons-sharp">dns</span>
+                            <h4>Backend Development</h4>
+                        </div>
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                <div class="items">
+                    <div class="item">
+                        <h5>PHP</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                                <h5>92%</h5>
+                        </div>
+                    </div>
+                        <!---End of item-->
+                        <div class="item">
+                            <h5>Python</h5>
+                            <div class="progress-area">
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                                    <h5>88%</h5>
+                            </div>
+                        </div>
+                            <!---End of item-->
+                            <div class="item">
+                                <h5>Node</h5>
+                                <div class="progress-area">
+                                    <div class="progress-bar">
+                                        <div class="progress"></div>
+                                    </div>
+                                        <h5>60%</h5>
+                                </div>
+                            </div>
+                                <!---End of item-->
+                                <div class="item">
+                                    <h5>MySQL</h5>
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <div class="progress"></div>
+                                        </div>
+                                            <h5>98%</h5>
+                                    </div>
+                                </div>
+                                    <!---End of item-->
+                </div>
+            </div>
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-icons-sharp">settings_suggest</span>
+                            <h4>CMS</h4>
+                        </div>
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                <div class="items">
+                    <div class="item">
+                        <h5>Wordpress</h5>
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                                <h5>92%</h5>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+        </section>
+
+        <!---End of skills-->
+        <section class="services" id="services">
+            <h1>Services</h1>
+            <div class="container">
+                <div class="service">
+                    <span class="material-icons-sharp">design_services</span>
+                    <h3>UI/UX Design</h3>
+                    <p>User interface (UI) design refers to the aesthetic elements by which people interact with a product, such as buttons, icons, menu bars, typography, colors, and more. User experience (UX) design refers to the experience a user has when interacting with a product. </p>
+
+
+                </div>
+                <div class="service">
+                    <span class="material-icons-sharp">language</span>
+                    <h3>Website & Web apps Development </h3>
+                    <p>Web application development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet. A web application (web app) does not need to be downloaded and is instead accessed through a network. </p>
+                </div>
+                <div class="service">
+                    <span class="material-icons-sharp">devices</span>
+                    <h3>Mobile Development</h3>
+                    <p>Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources. </p>
+
+
+                </div>
+            </div>
+        </section>
+        <!---End of services-->
+        <section class="recent-work" id="portfolio">
+            <div class="container">
+                <h4>My Recent Work</h4>
+                <h1>Here Are Some Of My Most Recent Solo Projects</h1>
+                <div class="projects">
+                    <div class="project">
+                        <div class="thubmnail">
+                            <img src="./photos/sabrine.jpg">
+                        </div>
+                        <h2>Complete Responsive E-Commerce Website with Stripe Checkout</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Aspernatur fuga possimus voluptatum distinctio impedit odio numquam error blanditiis tenetur unde. Explicabo iusto quam nesciunt repellat porro fuga quia sit, 
+                        eveniet illo architecto, et perferendis aut, ut mollitia ratione molestiae alias?</p>
+                        <div class="action">
+                            <a href="https://github.com" target="_blank">Github</a>
+                            <a href="https://egatortutorials.com" target="_blank">Live Demo</a>
+                        </div>
+                    </div>
+                <!---End of project-->
+                <div class="projects>">
+                    <div class="project">
+                        <div class="thubmnail">
+                            <img src="./photos/machine learning.jpg">
+    
+                        </div>
+                        <h2>Web Hosting Service Website</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Aspernatur fuga possimus voluptatum distinctio impedit odio numquam error blanditiis tenetur unde. Explicabo iusto quam nesciunt repellat porro fuga quia sit, 
+                            eveniet illo architecto, et perferendis aut, ut mollitia ratione molestiae alias?</p>
+                            <div class="action">
+                                <a href="https://github.com" target="_blank">Github</a>
+                                <a href="https://egatortutorials.com" target="_blank">Live Demo</a>
+                            </div>
+                    </div>
+                    <!---End of project-->
+
+                        </div>
+            
+            </div>
+        </section>
+        <!---------------------------End of portfolio-------------------------------------------------->
+        <section class="testimonials">
+            <h1>Testimonials</h1>
+            <div class="container swiper">
+                <div class="carousel swiper-wraper">
+                    <div class="testimonial swiper-slide">
+                        <div class="head">
+                            <div class="profile-area">
+                                <div class="avatar">
+                                    <img src="./photos/avatar1-removebg-preview.png">
+                                </div>
+                                    <div class="info">
+                                        <h4>Diana Ayi</h4>
+                                        <small>Civil Engineer(soviel.com)</small>
+                                    </div>
+                            </div>
+                                <div class="stars">
+                                    <span class="material-icons-sharp">star_rate</span>
+                                    <span class="material-icons-sharp">star_rate</span>
+                                    <span class="material-icons-sharp">star_rate</span>
+                                    <span class="material-icons-sharp">star_rate</span>
+                                    <span class="material-icons-sharp">star_rate</span>
+                                </div>
+                        </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam ipsam natus blanditiis aliquam magni,
+                               mollitia repellendus eos ullam maiores pariatur tempora architecto impedit harum delectus excepturi. Quia, eius a!</p>
+                    </div>
+                        <!---End of testimonial-->
+                        <div class="testimonial swiper-slide">
+                            <div class="head">
+                                <div class="profile-area">
+                                    <div class="avatar">
+                                        <img src="./photos/avatar2.webp">
+                                    </div>
+                                        <div class="info">
+                                            <h4>Barlowe Blinks</h4>
+                                            <small>STO(sika.org))</small>
+                                        </div>
+                                </div>
+                                    <div class="stars">
+                                        <span class="material-icons-sharp">star_rate</span>
+                                        <span class="material-icons-sharp">star_rate</span>
+                                        <span class="material-icons-sharp">star_rate</span>
+                                        <span class="material-icons-sharp">star_rate</span>
+                                        <span class="material-icons-sharp">star_rate</span>
+                                    </div>
+                            </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam ipsam natus blanditiis aliquam magni,
+                                   mollitia repellendus eos ullam maiores pariatur tempora architecto impedit harum delectus excepturi. Quia, eius a!</p>
+                        </div>
+                            <!---End of testimonial-->
+                            <div class="testimonial swiper-slide">
+                                <div class="head">
+                                    <div class="profile-area">
+                                        <div class="avatar">
+                                            <img src="./photos/avatar3.png">
+                                        </div>
+                                            <div class="info">
+                                                <h4>Bob Coodwin</h4>
+                                                <small>Fouder(soeney.com)</small>
+                                            </div>
+                                    </div>
+                                        <div class="stars">
+                                            <span class="material-icons-sharp">star_rate</span>
+                                            <span class="material-icons-sharp">star_rate</span>
+                                            <span class="material-icons-sharp">star_rate</span>
+                                            <span class="material-icons-sharp">star_rate</span>
+                                            <span class="material-icons-sharp">star_rate</span>
+                                        </div>
+                                </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam ipsam natus blanditiis aliquam magni,
+                                       mollitia repellendus eos ullam maiores pariatur tempora architecto impedit harum delectus excepturi. Quia, eius a!</p>
+                            </div>
+                                <!---End of testimonial-->
+                                <div class="testimonial swiper-slide">
+                                    <div class="head">
+                                        <div class="profile-area">
+                                            <div class="avatar">
+                                                <img src="./photos/avatar4.webp">
+                                            </div>
+                                                <div class="info">
+                                                    <h4>Daniel Vinyo</h4>
+                                                    <small>Student (KNUST)</small>
+                                                </div>
+                                        </div>
+                                            <div class="stars">
+                                                <span class="material-icons-sharp">star_rate</span>
+                                                <span class="material-icons-sharp">star_rate</span>
+                                                <span class="material-icons-sharp">star_rate</span>
+                                                <span class="material-icons-sharp">star_rate</span>
+                                                <span class="material-icons-sharp">star_rate</span>
+                                            </div>
+                                    </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam ipsam natus blanditiis aliquam magni,
+                                           mollitia repellendus eos ullam maiores pariatur tempora architecto impedit harum delectus excepturi. Quia, eius a!</p>
+                                </div>
+                                    <!---End of testimonial-->
+                                    
+                </div>
+                          <!---swiper-pagination-->
+                <div class="swiper-scrollbar">
+                    <div class="swiper-scrollbar-drag"></div>
+                                        
+                </div>
+            </div>
+        </section>
+        <!---------------------------------end of testimonial---------------------------------->
+        <section class="contact" id="contact">
+            <div class="overlay">
+                <div class="container">
+                    <h1>Let's Talk</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio suscipit quas ea earum.</p>
+                    <form action="https://formspree.io/f/mnqwbvlp" method="POST">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="Message" placeholder="Message" required></textarea>
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------end contact------------------------------>
+        <footer>
+            <div class="container">
+                <a href="#"><h3>Portfolio</h3></a>
+                <ul>
+                <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contacts">Let's Talk</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://dribbble.com" target="_blank"><i class="uil uil-dribbble"></i></a>
+                <a href="https://github.com" target="_blank"><i class="uil uil-github"></i></a>
+            </div>
+            <div class="copyright">
+                Copyright &copy; Egator YouTube Tutorials
+
+            </div>
+        </footer>
+    </body>
+</html>
